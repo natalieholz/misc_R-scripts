@@ -27,4 +27,4 @@ new_file_names <- str_replace(old_file_names,".txt","_newname.txt")
 #rename files
 file.rename(from = file.path(output_files, old_file_names), to = file.path(output_files, new_file_names))
 
-
+#done
